@@ -35,7 +35,7 @@ export const navigateToAuthLogin = async () => {
     // window.location.href = 'https://bj4458i08a.execute-api.ap-southeast-1.amazonaws.com/test-http-stage/auth-redirect?callbackurl=http://localhost:3000/redirect';
     // window.location.href = '/test-rest-stage/auth/login?callbackurl=http://localhost:80/auth/redirected&abcdef=98765'
     // window.location.href = '/test-rest-stage/localDev/login?'
-    window.location.href = backendUrl + '/auth/login?callbackurl=https://test-cookies-gctxkh2i9-mukunthans-projects-440be863.vercel.app/auth/redirected'
+    window.location.href = backendUrl + '/auth/login?callbackurl=https://test-cookies-5wyhahwd9-mukunthans-projects-440be863.vercel.app/auth/redirected'
     // window.location.href = backendUrl + '/auth/login'
 
   };
