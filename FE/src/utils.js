@@ -35,7 +35,7 @@ export const navigateToAuthLogin = async () => {
     // window.location.href = 'https://bj4458i08a.execute-api.ap-southeast-1.amazonaws.com/test-http-stage/auth-redirect?callbackurl=http://localhost:3000/redirect';
     // window.location.href = '/test-rest-stage/auth/login?callbackurl=http://localhost:80/auth/redirected&abcdef=98765'
     // window.location.href = '/test-rest-stage/localDev/login?'
-    window.location.href = backendUrl + '/auth/login?callbackurl=http://localhost:3000/auth/redirected&abcdef=98765'
+    window.location.href = backendUrl + '/auth/login?callbackurl=http://localhost:3001/auth/redirected&abcdef=98765'
   };
   
 
@@ -56,4 +56,5 @@ export const removeToken = (key) => localStorage.removeItem(key);
 
 
 // https://login.microsoftonline.com/1a86bb32-c02c-481b-8b67-05f7382f6446/oauth2/v2.0/authorize?client_id=2da02e8f-f4ce-495f-91af-ced405441604&response_type=code&redirect_uri=[replace_with_1_of_redirect_uri_entries]&scope=openid%20profile%20email%20offline_access&code_challenge=[replace_with_code_challenge]&code_challenge_method=S256&state=[replace_with_random_value_generated_from_your_frontend]&prompt=
+
 

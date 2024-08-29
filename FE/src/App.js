@@ -248,7 +248,7 @@ const Redirect = () => {
           // code_verifier: codeVerifier,
           code: code,
           state: state,
-          callbackurl: "http://localhost:3000/auth/redirected",
+          callbackurl: "http://localhost:3001/auth/redirected",
         }),
         credentials: "include"
       })
