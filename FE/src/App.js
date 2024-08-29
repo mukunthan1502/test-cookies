@@ -94,7 +94,7 @@ const Home = () => {
 
     try {
       // const response = await fetch(`/test-rest-stage/auth/testing`, {headers: {
-        const response = await fetch(backendUrl + "/auth/testing", {headers: {
+        const response = await fetch(backendUrl + "/auth/protected", {headers: {
         credentials: "include"
       }})     
       setApiResponse(await response.json());
