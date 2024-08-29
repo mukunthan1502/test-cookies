@@ -248,7 +248,8 @@ const Redirect = () => {
           // code_verifier: codeVerifier,
           code: code,
           state: state,
-          callbackurl: "http://localhost:3001/auth/redirected",
+          // callbackurl: "http://localhost:3001/auth/redirected",
+          callbackurl: "https://test-cookies-gctxkh2i9-mukunthans-projects-440be863.vercel.app/auth/redirected",
         }),
         credentials: "include"
       })
