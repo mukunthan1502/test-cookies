@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx_proxy
+    ports:
+      - "80:80"
+      # - "3000:3000"
+    volumes:
+      - ./nginx_reverse.conf:/etc/nginx/nginx.conf:ro  # Mount the custom NGINX config file
+    networks:
+      - nginx_network
+
+networks:
+  nginx_network:
+    driver: bridge
